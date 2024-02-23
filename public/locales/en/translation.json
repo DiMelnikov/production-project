@@ -2,5 +2,8 @@
   "Тестовый пример": "Test example",
   "Перевод": "Translate",
   "Главная страница": "Main page",
-  "Язык": "Enlish"
+  "Язык": "Enlish",
+  "Страница не найдена": "Page not found",
+  "Произошла непредвиденная ошибка": "Unexpected error",
+  "Обновить страницу": "Refresh the page"
 }
