@@ -12,12 +12,9 @@ module.exports = {
     ],
     overrides: [
         {
-            env: {
-                node: true,
-            },
-            files: ['.eslintrc.{js,cjs}'],
-            parserOptions: {
-                sourceType: 'script',
+            files: ['**/src/**/*.test.{ts,tsx}'],
+            rules: {
+                'i18next/no-literal-string': 'off',
             },
         },
     ],
@@ -34,7 +31,16 @@ module.exports = {
         'no-mixed-spaces-and-tabs': 0,
         'react/react-in-jsx-scope': 0,
         'no-unused-vars': 'warn',
-        'i18next/no-literal-string': ['error', { markupOnly: true }],
-        'max-len': ['error', { ignoreComments: true }],
+        'i18next/no-literal-string': [
+            'error',
+            {
+                markupOnly: true,
+                ignoreAttribute: ['data-testid'],
+            },
+        ],
+        'max-len': ['error', { ignoreComments: true, code: 100 }],
+    },
+    globals: {
+        __IS_DEV__: true,
     },
 }
