@@ -2,9 +2,7 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
-import { ThemeButton } from 'shared/ui/Button/Button';
 import { Sidebar } from './Sidebar';
-import { Clear, OutlineDark, Primary } from 'shared/ui/Button/Button.stories';
 
 export default {
     title: 'widgets/Sidebar',
