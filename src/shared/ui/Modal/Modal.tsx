@@ -9,6 +9,7 @@ import React, {
 } from 'react';
 import { Portal } from 'shared/ui/Portal/Portal';
 import { useTheme } from 'app/providers/ThemeProvider';
+import theme from '@storybook/addon-interactions/dist/ts3.9/theme';
 
 interface ModalProps {
     className?: string;
@@ -62,7 +63,6 @@ export const Modal = (props: ModalProps) => {
     const mods: Record<string, boolean> = {
         [cls.opened]: isOpen,
         [cls.isClosing]: isClosing,
-        [cls[theme]]: true,
     };
     return (
         <Portal>
