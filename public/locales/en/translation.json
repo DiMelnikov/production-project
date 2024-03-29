@@ -3,9 +3,10 @@
   "Перевод": "Translate",
   "Главная страница": "Main page",
   "Язык": "Enlish",
+  "новый перевод": "новый перевод",
   "Страница не найдена": "Page not found",
-  "Произошла непредвиденная ошибка": "Unexpected error",
-  "Обновить страницу": "Refresh the page",
+  "Произошла непредвиденная ошибка": "An unexpected error has occurred",
+  "Обновить страницу": "Reload page",
   "throw error": "throw error",
   "Главная": "Main",
   "О сайте": "About us",
@@ -13,5 +14,7 @@
   "Короткий язык": "En",
   "Войти": "Login",
   "decrement": "decrement",
-  "increment": "increment"
+  "increment": "increment",
+  "Введите username": "Введите username",
+  "Введите пароль": "Введите пароль"
 }
